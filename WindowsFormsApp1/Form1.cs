@@ -19,9 +19,10 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             sum sum=new sum();
             textBox1.Text=Convert.ToString(sum.add(Convert.ToInt32(textBox2.Text), Convert.ToInt32(textBox3.Text)));
+            sum.aa = 12;
+            textBox1.Text = Convert.ToString(sum.aa);
         }
     }
 }

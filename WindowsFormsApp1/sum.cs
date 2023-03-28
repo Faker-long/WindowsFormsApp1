@@ -8,9 +8,11 @@ namespace WindowsFormsApp1
 {
     internal class sum
     {
-        public int add(int x,int y)
+        public int add(int x, int y)
         {
             return (x + y);
         }
+        private int a;
+        public int aa { get { return a; } set { a = value; } }
     }
 }
